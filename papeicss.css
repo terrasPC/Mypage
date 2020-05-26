@@ -1,0 +1,181 @@
+
+html{
+	background-color: #8962D7;
+	line-height: 1.7;
+	font-family: Arial, sans-serif;
+}
+
+.container{
+	background-color: white;
+	max-width: 940px;
+	margin: 0 auto;
+	
+}
+.cont{
+	border-top: 2px solid #BFA7F0;
+	border-bottom: 2px solid #BFA7F0;
+
+
+}
+.hea{
+	margin: 0;
+	padding: 0;
+	text-shadow: 1px 1px 0 grey;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+	
+
+}
+.piso{
+	background-color: #FFF;
+}
+/*aside*/
+aside{
+	display: block;
+	
+}
+.par1,.par2{
+	background-image:linear-gradient(to bottom,#BFA7F0,white);
+	
+}
+.par3,.par4{
+	background-image:linear-gradient(to top,#BFA7F0,white);
+}
+.par0{
+	float: left;
+	width: 50%;
+	padding:5px;
+	box-sizing:border-box;
+
+}
+.par1{
+	display: block;
+	float: left;
+	width: 25%;
+	padding:5px;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	box-sizing:border-box;
+
+
+}
+.par2{
+	display: block;
+	float: left;
+	width: 25%;
+	padding:5px;
+	border-bottom: 2px solid black;
+	box-sizing:border-box;
+}
+.par3{
+	display: block;
+	float: left;
+	width: 25%;
+	padding:5px;
+	border-right: 2px solid black;
+	box-sizing:border-box;
+}
+.par4{
+	display: block;
+	float: left;
+	width: 25%;
+	padding:5px;
+	box-sizing:border-box;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+/*Navigation style*/
+.navi{
+	float: left;
+	display: block;
+	border:2px solid #BFA7F0;
+	padding: 5px;
+	color:white;
+	background-color: #8359D8;
+	text-decoration: none;
+	border-bottom: none;
+
+}
+.navi:hover{
+	background-color: #BFA7F0 ;
+}
+nav{
+	
+	max-width: 940px;
+	margin: 0 auto;	
+	background-color: #8962D7;
+
+}
+
+/*epikefalida*/
+header{
+	color: white;
+	max-width: 940px;
+	margin: 0 auto;
+	padding-top: 20px;
+	
+
+}
+/* eikones*/
+.foto {
+	display: block;
+	float: left;
+	width: 25%;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+/*ipad*/
+@media screen and (max-width:1200px){
+	.par1,.par0,.par2,.par3,.par4{
+		width: auto;
+		float: none;}
+	.foto{
+		margin-top: 20px;
+		width: 50%;
+	}	
+}
+/*phone*/
+@media screen and (max-width: 600px){
+	.navi{
+		display: block;
+		box-sizing: border-box;
+		width: 50%;
+	}
+}
+/*forma*/
+form{
+	width: 940px;
+	margin:auto;
+}
+.hidden-label{
+	visibility: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+form input:focus{
+	border:1px solid black;
+	box-shadow: inset 2px 2px 2px #88797b;
+	outline: none;
+}
+.par0{
+	background-image: url(2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
