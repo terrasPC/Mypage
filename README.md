@@ -1,1 +1,72 @@
-# Mypage
+<!DOCKTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PAPEI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="papeicss.css">
+</head>
+<body >
+	<header >
+		<h1 class="hea">ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΙΡΑΙΩΣ</h1>
+		<p class="hea">University of Piraeus</p>
+	</header>
+	<nav class="group">
+
+
+			<a class="navi"href="#">ΑΡΧΙΚΗ</a>
+			<a class="navi"href="#">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
+			<a class="navi"href="#">ΛΟΓΑΡΙΑΣΜΟΣ</a>
+			<a class="navi"href="#">ΕΠΙΚΟΙΝΩΝΕΙΣΤΕ ΜΑΖΙ ΜΑΣ</a>	
+		</style>
+		</nav>	
+	<div class="piso">
+		
+	<div class="cont">
+		<div class="container">
+			<div class="par0 group" >
+			<p>SIMANTIKO KEIMENOLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<aside class="group">
+			<div class="par1 group" >
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+			<div class="par2 group">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+			<div class="par3 group">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+			<div class="par4 group">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+
+		</aside>
+		<div class="group">
+			<img class="foto"src="1.jpg" alt="foto1">
+			<img class="foto"src="2.png" alt="foto2">
+		</div>
+	</div>
+	</div>
+	</div>
+	<footer>
+		<form>
+			<label for="1" class="hidden-label">Name</label>
+			<input id="1"type="text" placeholder="ΟΝΟΜΑΤΕΠΩΝΥΜΟ" name="">
+			<label for="2" class="hidden-label">Code</label>
+			<input id="2"type="password" placeholder="ΚΩΔΙΚΟΣ"  name="">
+			<input type="submit" value="ΕΙΣΟΔΟΣ" name="">
+		</form>
+	</footer>
+
+
+</body>
+</html>
